@@ -1,0 +1,297 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScsfHiR1CyXiXuw7p-ot1zL2c7cp0oryUbcQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.main {
+    height: 100px;
+    background-color: rgb(139, 116, 116);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    /* margin-left: 25%;
+    margin-right: 25%; */
+
+
+}
+
+.main .one img {
+    height: 90px;
+    width: 90px;
+    margin-right: 12px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 8px solid rgb(184, 80, 80);
+}
+
+.main .one img:hover {
+    height: 90px;
+    width: 90px;
+    margin-right: 12px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 8px solid rgb(184, 80, 80);
+
+    background-color: white;
+    transition: 0.7s;
+
+}
+
+.main .two img {
+    height: 90px;
+    width: 90px;
+    margin-right: 12px;
+    border-bottom: 8px solid green;
+
+}
+
+.main .two img:hover {
+    height: 90px;
+    width: 90px;
+    transition: 0.7s;
+    /* border-radius: 50px; */
+    margin-right: 12px;
+    border-bottom: 8px solid purple;
+    background-color: purple;
+
+}
+
+.main .three img {
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+    width: 90px;
+    margin-right: 12px;
+    border-bottom: 8px solid red;
+}
+
+.main .three img:hover {
+    background-color: rgb(255, 3, 3);
+    height: 90px;
+    width: 90px;
+    margin-right: 12px;
+    border-bottom: 8px solid red;
+}
+
+.main .four img {
+    background-color: rgb(0, 0, 0);
+    height: 90px;
+    width: 90px;
+    margin-right: 12px;
+    border-bottom: 8px solid yellowgreen;
+}
+
+.main .four img:hover {
+    background-color: rgb(0, 0, 0);
+    height: 90px;
+    width: 90px;
+    margin-right: 12px;
+    border-bottom: 8px solid yellowgreen;
+}
+
+.main .five img {
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width: 80px;
+    margin-right: 12px;
+    border-bottom: 8px solid blue;
+    margin-top: 10px;
+}
+
+.main .five img:hover {
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width: 80px;
+    margin-right: 12px;
+    border-bottom: 8px solid blue;
+    margin-top: 10px;
+}
+
+.main .six img {
+    height: 90px;
+    width: 90px;
+    margin-right: 12px;
+    border-bottom: 8px solid pink;
+
+}
+
+.main .six img:hover {
+    height: 90px;
+    width: 90px;
+    transition: 0.7s;
+    border-radius: 50px;
+    margin-right: 12px;
+    border-bottom: 8px solid red;
+}
+
+.main .seven img {
+    height: 90px;
+    width: 90px;
+    margin-right: 12px;
+    border-bottom: 8px solid orange;
+}
+
+.main .seven img :hover {
+    height: 90px;
+    width: 90px;
+    transition: 0.7s;
+    border-radius: 50px;
+    margin-right: 12px;
+    border-bottom: 8px solid magenta;
+
+
+}
+
+.sectionone {
+    margin-left: 240px;
+    margin-right: 240px;
+    /* border: 2px solid yellow; */
+    margin-top: 90px;
+    display: flex;
+
+
+}
+
+.sectiononetwo {
+    height: 150px;
+    width: 100%;
+    /* align-items: top; */
+    display: inline;
+    justify-content: start;
+}
+
+.sectiononeone p {
+    height: 200px;
+    background-color: rgb(146, 75, 146);
+}
+
+.sectiononeone .paragrafhone {
+    color: rgb(255, 255, 255);
+    background-color: purple;
+    height: 50px;
+    font-size: 20px;
+
+}
+
+.sectiononeone .paragrafhtwo {
+    color: rgb(255, 255, 255);
+    background-color: purple;
+    height: 50px;
+
+}
+
+/* .sectiononetwo{
+    border: 2px solid blueviolet;
+} */
+.sectiononetwo .imageone {
+
+    display: flex;
+}
+
+.sectiononetwo .imageone p {
+    background-color: lightskyblue;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.sectiononetwo .imagetwo p {
+    background-color: rgba(0, 0, 133, 0.8);
+    color: white;
+    height: 215px;
+    margin-left: 2px;
+    margin-top: 0%;
+    text-align: center;
+
+}
+
+.sectiononetwo .imagetwo {
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.sectionone .sectiononeone p {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.cards {
+    display: flex;
+    /* margin-left: 240px;
+    margin-right: 240px; */
+    /* justify-content: center space-around; */
+    justify-content: center;
+}
+
+.cards ul {
+    display: flex;
+    margin-top: 12px;
+
+
+}
+
+.cards ul li {
+    margin-right: 25px;
+    /* display: flex; */
+    justify-content: space-between;
+    height: 200px;
+    width: 265px;
+    border: 2px solid red;
+    list-style: none;
+}
+
+.cards ul .box1 {
+    background-color: pink;
+    font-size: 21px;
+    text-align: center;
+}
+
+.cards ul .box2 {
+    background-color: rgb(235, 42, 74);
+    font-size: 21px;
+    text-align: center;
+}
+
+.cards ul .box3 {
+    background-color: yellow;
+    font-size: 21px;
+    text-align: center;
+}
+
+.Featurepokemon h1{
+     display: inline;
+     align-items: center;
+     margin-left: 280px;
+    color: wheat;
+    background-color: black;
+}
+
+.Featurepokemon ul {
+    display: flex;
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.Featurepokemon ul li {
+    list-style: none;
+    /* margin-right: 12px; */
+    height: 300px;
+    width: 350px;
+    border: 2px solid green;
+}
