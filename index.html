@@ -1,100 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pokemon project</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div class="main" >
+  <div class="header">
     <div class="one">
-<img src="https://aaah0mnbncqtinas.public.blob.vercel-storage.com/Q8ECbQ2LQV-no-background-UIs7Pb8ocKxWViVELgT6HHbHYNfzDZ.png" alt="">
-</div>
-<div class="two">
-<img src="https://cdn.pixabay.com/photo/2019/11/27/14/06/pokemon-4657023_1280.png" alt="">
-</div>
+      <img src="https://assets.pokemon.com/assets/cms2/img/misc/gus/buttons/logo-pokemon-79x45.png" alt="">
+    </div>
+    <div class="two">
+      <img src="https://assets.pokemon.com/assets/cms2/img/misc/gus/buttons/logo-pokemoncenter-79x45.png" alt="">
+    </div>
 
-<div class="three">
-<img src="data:image/png;base64,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" alt="">
-</div>
-<div class="four">
-  <img src="images-removebg-preview (1).png" alt="">
-</div>
-<div class="five">
-  <img src="data:image/png;base64,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" alt="">
-</div>
-<div class="six">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5DKoun_05oRO2rKf80_svIBdElYew9qIx0A&usqp=CAU" alt="">
-</div>
-<div class="seven" >
-  <img src="data:image/png;base64,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" alt="">
-
-</div>
-</div>
-<br>
-<div class="sectionone">
-  <div class="sectiononeone">
-<img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-scarlet-violet/2024/01162024/scarlet-violet-169-en.png" alt="">
-<!-- <div class="paragrafhone" > -->
-<p >The Newly Discovered Mythical  Pokemon pecharunt is off the chain 
- Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nulla unde veniam? 
- <br>
- Blaziken Is Coming to 7‑Star Tera Raid Battles</p>
-</div>
-<div class="sectiononetwo" >
-  <div class="imageone">
-<img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/trading-card-game/_tiles/sv/sv04/deck-strategy/snorlax/sv04-snorlax-34-en.png"    height="150px " width="150px 
- " alt="">
- <p>
- Lorem ipsum dolor sit amet
-</p>
-</div>
-<div class="imagetwo">
- 
- <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-scarlet-violet/events/2024/01112024/scarlet-violet-169-en.png" height="160px " width="100%" alt="">
- <p>
-  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad laboriosam inventore fuga. Sint, libero voluptas.
-  </p>
-
-
-</div>
-
-</div>
-
-</div>
-<div class="cards">
-<ul>
-  <li class="box1"> <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-go/2024/01122024/01/pokemon-go-169.png" height="70%"  width="100%">
-    <p>
-    Fairy type pokemon Drazzel type Pokemon
-  </p>
-  </li>
-  <li class="box2">
-    <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/misc/_tiles/pokemon-center/2024/01162024/pokemon-center-169.png" height="70%"  width="100%" alt="">
-    <p>Legendry pokemon Legendary style</p>
-
-
-
-
-  </li>
-  <li class="box3"> 
-    <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/trading-card-game/_tiles/sv/sv045/preview-cards/sv045-preview-cards-1-169-en.png" height="70%"  width="100%" alt="">
-    <p> New  Scarlet & Voilet paldeens Fades card</p>
-  </li>
-</ul>
-
-</div>
-
-<div class="Featurepokemon">
-  <h1>Featured Pokenon</h1>
-  <ul>
-  <li class="slideone"><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/815.png"   width="100%" height="75%" alt="" bgcolor="grey"></li>
-  <li>card2</li>
-  <li>card3</li>
-  <li>card4</li>
-</ul>
-</div>
+    <div class="three">
+      <img src="https://assets.pokemon.com/assets/cms2/img/misc/gus/buttons/corporate-en.png" alt="">
+    </div>
+    <div class="four">
+      <img src="https://assets.pokemon.com/assets/cms2/img/misc/gus/promotions/tcg-175-en.png" alt="">
+    </div>
+    <div class="five">
+      <img src="https://assets.pokemon.com/assets/cms2/img/misc/gus/promotions/scarlet-violet-175x50-en.jpg" alt="">
+    </div>
+    <div class="six">
+      <img src="https://assets.pokemon.com/assets/cms2/img/misc/gus/promotions/community-forums-175x50-en.png" alt="">
+    </div>
+  </div>
   
+  <br>
+  <div class="sectionone">
+    <div class="sectiononeone">
+      <img
+        src="https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-scarlet-violet/2024/01162024/scarlet-violet-169-en.png"
+        alt="">
+      <!-- <div class="paragrafhone" > -->
+      <p>The Newly Discovered Mythical Pokemon pecharunt is off the chain
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nulla unde veniam?
+        <br>
+        Blaziken Is Coming to 7‑Star Tera Raid Battles
+      </p>
+    </div>
+    <div class="sectiononetwo">
+      <div class="imageone">
+        <img
+          src="https://www.pokemon.com/static-assets/content-assets/cms2/img/trading-card-game/_tiles/sv/sv04/deck-strategy/snorlax/sv04-snorlax-34-en.png"
+          height="150px " width="150px 
+ " alt="">
+        <p>
+          Lorem ipsum dolor sit amet
+        </p>
+      </div>
+      <div class="imagetwo">
+
+        <img
+          src="https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-scarlet-violet/events/2024/01112024/scarlet-violet-169-en.png"
+          height="160px " width="100%" alt="">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad laboriosam inventore fuga. Sint, libero voluptas.
+        </p>
+
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="cards">
+    <ul>
+      <li class="box1"> <img
+          src="https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-go/2024/01122024/01/pokemon-go-169.png"
+          height="70%" width="100%">
+        <p>
+          Fairy type pokemon Drazzel type Pokemon
+        </p>
+      </li>
+      <li class="box2">
+        <img
+          src="https://www.pokemon.com/static-assets/content-assets/cms2/img/misc/_tiles/pokemon-center/2024/01162024/pokemon-center-169.png"
+          height="70%" width="100%" alt="">
+        <p>Legendry pokemon Legendary style</p>
+
+
+
+
+      </li>
+      <li class="box3">
+        <img
+          src="https://www.pokemon.com/static-assets/content-assets/cms2/img/trading-card-game/_tiles/sv/sv045/preview-cards/sv045-preview-cards-1-169-en.png"
+          height="70%" width="100%" alt="">
+        <p> New Scarlet & Voilet paldeens Fades card</p>
+      </li>
+    </ul>
+
+  </div>
+  
+  <div class="Featurepokemon">
+    <h3>Featured Pokenon</h3>
+ 
+    <ul>
+      <li class="slideone"><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/815.png"
+        alt="">
+      <h2>Dragalge</h2></li>
+      <li class="slidetwo">
+        <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/542.png" alt="">  <h2>Dragalge</h2>
+        </li>
+      <li class="slidethree" id="slidethrees"  > 
+        <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/711.png" alt="">  <h2>Dragalge</h2>
+      </li>
+      <li class="slidefour"  >
+        <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/327.png" alt="">  <h2>Dragalge</h2> 
+      </li>
+      <li class="slidefive" >
+        <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/423.png"  alt="">  <h2>Dragalge</h2>
+      </li>
+    </ul>
+  </div>
+  <div class="exploremore" >
+    <h3> Explore more Pokemon</h3>
+    <ul>
+      <li class="exploreone">
+        <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/strategy/go/thundurus/therian-forme/pokemon-go-169.jpg" alt="">
+        <p>therian-forme Thundria pokemon go Raid battle strategy</p>
+        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia nam dolorem ipsum eum necessitatibus eligendi, autem aspernatur officiis minima non!</span>
+        <div class="imagetwo">
+        <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/trading-card-game/series/incrementals/2024/2023-wcs-decks/2023-wcs-decks-169-en.png" alt="">
+        <h4>Play like a pokemon champion</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, nulla vel. Quibusdam ullam consectetur laborum.</p>
+        </div>
+
+      </li>
+      <li class="exploretwo"> 
+        <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/trading-card-game/_tiles/sv/sv045/tcgl/sv045-tcgl-169-en.png" alt="">
+        <p>
+        Pokemon TCG: Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+      </p>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsam eveniet illum dolor nihil.</span>
+      <div class="exploretwotwo">
+        <h4>What's new this week</h4>
+        <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/watch-pokemon-tv/_tiles/season25/quiz/02/season25-quiz-169-en.png" alt="">
+        <nav>
+         <span>Take the pokemon ultimate journey Quiz <span> 
+         <span>
+          Test your knowledge of season 25
+         </span>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur explicabo iure qui. At, laborum illum?
+        </nav>
+       
+      </div>
+      </li>
+      <li class="explorethree" > 
+        <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/misc/_tiles/pokemon-center/2024/01182024/pokemon-center-169.png" alt="">
+        <p>Pokemon center offer taste of Adventers</p>
+        <span>    A new monthly figure line celebrates each unique region and its delicious cuisine.</span>
+        <div class="numberthree" >  
+          
+        <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/misc/_tiles/pokemon-center/2024/01102024/pokemon-center-169.png"    alt="">
+        <p>Its time to preorder scarlet & voilet  temporal forces</p>
+      </div>
+
+
+      </li>
+    
+    </ul>
+    
+  </div>
+  <br>
+  <h1>welcome'</h1>
+
+
+
+
 </body>
+
 </html>
